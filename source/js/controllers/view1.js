@@ -2,6 +2,12 @@
 
 myApp.controller('view1Ctrl', function($scope, $filter) {
 
-	console.log("view1Ctrl loaded");
+	$scope.dropdownOpen = false;
+
+	$scope.navlist = [
+		{"name":"Home"},
+		{"name":"About"},
+		{"name":"Contact"}   
+	];
 
 });
